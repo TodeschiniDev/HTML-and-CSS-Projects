@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    height: 200px;
+    background-color: #B38FB0;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #F1B8A7;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+#home {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#dog-image { 
+    position: relative;
+    right: 350px;
+    bottom: 50px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#method {
+    text-align: center;
+}
+
+#method-boxes {
+    position: relative;
+    left: 250px;
+    margin-bottom: 50px;
+}
+
+#students-work img {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #B38FB0;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#have-a-peek {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;;
+}
+
+#form {
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #E9E5A7;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin: 5px auto;
+    padding: 2px;
+    font-weight:800;
+    color: #fff;
+    background-color:#B38FB0;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 50px;
+    color: #DB9FA9;
+    text-align: center;;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    font-size: 1.5em;
+    color: #6ABEC2;
+    line-height: 2;
+}
